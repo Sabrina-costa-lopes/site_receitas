@@ -1,17 +1,11 @@
-.titulo{
-    font-size: 50px;
-    text-align: center;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #555152;
-}
+
 .corpo{
-    background-color: #dce9be;
+    background-color: #F3F3E0;
+    font-family: arial,sans-serif;
 }
 
 ul a{
-    color: #99173c;
+    color: #133E87;
     
 }
 
@@ -37,5 +31,73 @@ h3{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #F3F3E0;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.5em;
+    font-family: "Nerko One", cursive;
+    font-style: normal;
+    color: #133E87;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-links li{
+    text-decoration: none;
+    color: #608BC1;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-links a{
+    color: #133E87;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover{
+    background-color: #F3F3E0;
+    border-radius: 5px;
+}
+
+.risoto{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+.mousse{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+.cogumelos{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    
 }
 
