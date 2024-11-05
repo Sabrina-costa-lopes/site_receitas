@@ -1,7 +1,8 @@
 
 .corpo{
-    background-color: #F3F3E0;
+    background-color: #EAD8B1;
     font-family: arial,sans-serif;
+    
 }
 
 ul a{
@@ -37,16 +38,18 @@ h3{
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #F3F3E0;
+    background-color: #6A9AB0;
     max-width: 1200px;
-    justify-content: space-between;
+    justify-content: left;
+    padding: 20px;
+    height: 60px;
 }
 
 .logo{
     font-size: 1.5em;
     font-family: "Nerko One", cursive;
     font-style: normal;
-    color: #133E87;
+    color: #001F3F;
     font-weight: bold;
 }
 
@@ -67,37 +70,39 @@ h3{
 header{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    border: 0;
+
 }
 
 .nav-links a{
-    color: #133E87;
+    color: #001F3F;
     text-decoration: none;
     padding: 10px 15px;
     transition: background 0.3s;
 }
 
 .nav-links a:hover{
-    background-color: #F3F3E0;
+    background-color: #EAD8B1;
     border-radius: 5px;
 }
 
 .risoto{
     width: 300px;
     height: auto;
-    display: inline-block;
+    display: flex;
 }
 
 .mousse{
     width: 300px;
     height: auto;
-    display: inline-block;
+    display: flex
 }
 
 .cogumelos{
     width: 300px;
     height: auto;
-    display: inline-block;
+    display: flex;
     
 }
+
 
